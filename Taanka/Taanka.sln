@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taanka.DataAccess", "Taanka.DataAccess\Taanka.DataAccess.csproj", "{E47CB3B8-A7D3-4A74-AEB8-73422D18688F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taanka.Models", "Taanka.Models\Taanka.Models.csproj", "{FBA1067F-C23F-4338-82B7-CEF2D6A509AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taanka.Mappers", "Taanka.Mappers\Taanka.Mappers.csproj", "{7855A529-B711-4494-BC7B-A39B1B4D733F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taanka.Interfaces", "Taanka.Interfaces\Taanka.Interfaces.csproj", "{A3C3D701-4D94-4383-A5CE-7E31FFE78535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taanka.Repositories", "Taanka.Repositories\Taanka.Repositories.csproj", "{2F1771BA-E733-4B5A-9CD8-A15E11485E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taanka.WebUI", "Taanka.WebUI\Taanka.WebUI.csproj", "{C1BCEE97-F30D-4914-BB58-F63D8A439B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E47CB3B8-A7D3-4A74-AEB8-73422D18688F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47CB3B8-A7D3-4A74-AEB8-73422D18688F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47CB3B8-A7D3-4A74-AEB8-73422D18688F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47CB3B8-A7D3-4A74-AEB8-73422D18688F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA1067F-C23F-4338-82B7-CEF2D6A509AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA1067F-C23F-4338-82B7-CEF2D6A509AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA1067F-C23F-4338-82B7-CEF2D6A509AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA1067F-C23F-4338-82B7-CEF2D6A509AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7855A529-B711-4494-BC7B-A39B1B4D733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7855A529-B711-4494-BC7B-A39B1B4D733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7855A529-B711-4494-BC7B-A39B1B4D733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7855A529-B711-4494-BC7B-A39B1B4D733F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C3D701-4D94-4383-A5CE-7E31FFE78535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C3D701-4D94-4383-A5CE-7E31FFE78535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C3D701-4D94-4383-A5CE-7E31FFE78535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C3D701-4D94-4383-A5CE-7E31FFE78535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1771BA-E733-4B5A-9CD8-A15E11485E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1771BA-E733-4B5A-9CD8-A15E11485E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1771BA-E733-4B5A-9CD8-A15E11485E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1771BA-E733-4B5A-9CD8-A15E11485E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BCEE97-F30D-4914-BB58-F63D8A439B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BCEE97-F30D-4914-BB58-F63D8A439B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BCEE97-F30D-4914-BB58-F63D8A439B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BCEE97-F30D-4914-BB58-F63D8A439B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C5E86B4-B22E-49D5-8DEA-7E0B5D8DADE7}
+	EndGlobalSection
+EndGlobal

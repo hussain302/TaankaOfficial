@@ -1,0 +1,106 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Product Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center jumbotron">
+    <h1 style="font-size:2vw;"> Product Details </h1><br />
+    <a asp-controller="Product" asp-action="Manage" class="btn btn-outline-success">Go back <i class="fa fa-arrow-left"></i></a>
+</div>
+
+<br />
+<div class="row">
+    <div class="col-4">
+        <div>
+            <img class="w-100 h-100" src="@Model.Image_url_path" alt="Product Image Null" />
+        </div>
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Product Title: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Title </h5>
+            </div>
+        </div>
+        
+        <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Sub-Category: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.SubCategory </h5>
+            </div>
+        </div> <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Fabric: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Fabric </h5>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Price: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Price </h5>
+            </div>
+        </div> <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Price: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Price </h5>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Colors: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Colors  </h5>
+            </div>
+        </div> <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Sizes: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Sizes  </h5>
+            </div>
+        </div> <hr />
+
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Category: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Category </h5>
+            </div>
+        </div> <hr />
+        <div class="row">
+            <div class="col-4">
+                <h4 style="font-size:1.9vw;"> Description: </h4>
+            </div>
+            <div class="col-8">
+                <h5 style="font-size:1.7vw;"> @Model.Description  </h5>
+            </div>
+            <hr />
+        </div>
+    </div>
+</div>
+
+<div class="">
+    <div class="text-center">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning"> Edit <i class="fa fa-edit"> </i></a>
+    </div>
+</div>

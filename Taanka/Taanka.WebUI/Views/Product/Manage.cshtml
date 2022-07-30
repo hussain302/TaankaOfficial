@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Manage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center jumbotron">
+    <h1 style="font-size:2vw;"> Manage Products </h1><br />
+    <a id="" asp-controller="Product" asp-action="Create" class="btn btn-outline-success">Add Product <i class="fa fa-plus"></i></a>
+</div>
+<div>
+    <br />
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-4 mt-5">
+                <div class="card" >
+                    <img src="@item.Image_url_path" class="card-img-top" alt="product image">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size:1.5vw;" >@item.Title</h5>
+                        <h4 class="card-text" style="font-size:1.4vw;" > Rs:@item.Price\-</h4>
+                        <div class="">
+                            <a title="Update Product" class="btn btn-sm btn-outline-warning" asp-action="Edit" asp-controller="Product"
+                           asp-route-id="@item.Id" > <i class="fa fa-edit">  </i> </a>
+
+                            <a title="Delete Product"  class="btn btn-sm btn-outline-danger  " asp-action="Delete" asp-controller="Product"
+                           asp-route-id="@item.Id"><i class="fa fa-trash"></i> </a>
+                            <a title="Details of Product"  class="btn-sm btn btn-outline-primary " asp-action="Details" asp-controller="Product"
+                           asp-route-id="@item.Id"> <i class="fa fa-search"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        } <br />
+    </div>
+</div>

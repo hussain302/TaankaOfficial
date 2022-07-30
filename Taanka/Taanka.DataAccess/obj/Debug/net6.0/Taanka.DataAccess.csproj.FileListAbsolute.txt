@@ -1,0 +1,17 @@
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.deps.json
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.runtimeconfig.json
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.dll
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.pdb
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.Models.dll
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.Models.pdb
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.csproj.AssemblyReference.cache
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.AssemblyInfoInputs.cache
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.AssemblyInfo.cs
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.csproj.CoreCompileInputs.cache
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.csproj.CopyComplete
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.dll
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\refint\Taanka.DataAccess.dll
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.pdb
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.genruntimeconfig.cache
+D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\ref\Taanka.DataAccess.dll

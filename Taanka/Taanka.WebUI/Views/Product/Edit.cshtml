@@ -1,0 +1,126 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center jumbotron">
+    <h1 style="font-size:2vw;"> Edit Product </h1><br />
+    <a asp-controller="Product" asp-action="Manage" class="btn btn-outline-success">Go back <i class="fa fa-arrow-left"></i></a>
+</div>
+
+
+<div class="">
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <fieldset>
+
+            @Html.Hidden("Id")
+
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label mt-4">Title</label>
+                <input type="text" asp-for="Title" class="form-control" id="exampleInputEmail1"
+                       aria-describedby="emailHelp" required="required" placeholder="Enter Product Title">
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Colors</label>
+                        <input type="text" asp-for="Colors" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" required="required" placeholder="Enter Product Colors">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Sizes</label>
+                        <input type="text" asp-for="Sizes" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" required="required" value="XS, S, M, L, XL" placeholder="Enter Product Sizes Eg: XS, S, M, L, XL">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" required="required" class="form-label mt-4">Fabric</label>
+                        <input type="text" asp-for="Fabric" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" required="required" placeholder="Enter Product Fabric">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" required="required" class="form-label mt-4">Sub Category</label>
+                        <input type="text" asp-for="SubCategory" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" required="required" placeholder="Enter Product Sub Category Eg: Shalwar Kameez">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                     <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Department</label>
+                        <select asp-for="Department" class="form-control">
+                            <option value=""> Select Department </option>
+                            <option value="Men"> Men </option>
+                            <option value="Women"> Women </option>
+                            <option value="Kids"> Kids </option>
+                            <option value="Fragrances"> Fragrances </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Price</label>
+                        <input required="required"  min="1" type="number" asp-for="Price" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp"  required="required" placeholder="Enter Product Price">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+
+
+                <div class="col">
+                     <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Category</label>
+                        <select asp-for="Category" class="form-control">
+                            <option value=""> Select Category </option>
+                            <option value="Formal"> Formal </option>
+                            <option value="Semi Formal"> Semi formal </option>
+                            <option value="Bridal"> Bridal </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label mt-4">Image</label>
+                        <input type="file" asp-for="PhotoFile" value="@Model.Image_url_path" class="form-control" id="exampleInputEmail1"
+                               aria-describedby="emailHelp"  required="required" placeholder="No File Choosen">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label mt-4">Description</label>
+                <textarea required="required"   required="required" placeholder="Enter Details" rows="3" class="form-control" asp-for="Description">
+                    </textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label mt-4">Trending</label>
+                <label for="exampleInputPassword1" class="form-label mt-4">Yes</label>
+                <input type="radio" asp-for="IsTrending" value="true">
+                <label for="exampleInputPassword1" class="form-label mt-4"> No</label>
+                <input type="radio" asp-for="IsTrending" value="false">
+            </div>
+            <br />
+            <div class="text-center">
+                <button type="submit" class="btn btn-success"> Update </button>
+                <a asp-action="Manage" class="btn btn-primary"> Cancel </a>
+            </div>
+        </fieldset>
+    </form>
+</div>

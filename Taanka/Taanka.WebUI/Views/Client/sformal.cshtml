@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Semi-Formal";
+    Layout = "~/Views/Shared/_ClientLayout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <div class="jumbotron mt-3" style="background-color:rgb(0, 0, 0, 0.1);">
+        <h1 class="display-3 text-center" style="font-size:3.6vw;"> SEMI-FORMAL COLLECTION </h1>
+    </div>
+
+    <div>
+        <div class="row" style="margin-left:14%">
+            @foreach (var item in Model)
+            {
+                <div class="col-3 card pt-1 m-1">
+                    <h2 style="font-size:1.9vw;" class="text-center"> @item.Title</h2>
+                    <div>
+                        <img class="card-img-top" src="@item.Image_url_path" alt="Card image" style="width:100%">
+                        <div class="mt-1 mb-1">
+                            <h3 style="font-size:1.6vw;"> Category : @item.Category </h3>
+                            <h3 style="font-size:1.6vw;" class="card-text"> Rs: @item.Price</h3>
+                            <a asp-action="ProductDetails" asp-controller="Client" asp-route-id="@item.Id" style="font-size:1.2vw;" class="col btn btn-sm btn-info">Buy <i class="fa fa-shopping-cart"></i></a>
+                            <a href="~/client/details/@item.Id" style="font-size:1.2vw;" class="col btn btn-sm btn-danger">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

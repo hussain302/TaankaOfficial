@@ -1,0 +1,105 @@
+﻿@model IEnumerable<OrderModel>
+@{
+    ViewData["Title"] = "Manage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center jumbotron bg-warning">
+    <h1 style="font-size:2vw;"> Manage Unapproved Orders </h1><br />
+</div>
+<div>
+    <br />
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th> Order No </th>
+                <th> Details </th>
+                <th> Name </th>
+                <th> Phone </th>
+                <th> Address </th>
+                <th> Order Date </th>
+                <th> Email </th>
+                <th> Amount </th>
+                <th>
+                    Options
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.IsApproved == false)
+                {
+                <tr>
+                    <th> @item.OrderNo </th>
+                    <td> @item.Details </td>
+                    <td> @item.FullName </td>
+                    <td> @item.Phone </td>
+                    <td> @item.Address </td>
+                    <td> @item.OrderDate </td>
+                    <td> @item.Email </td>
+                    <td> @item.TotalAmount </td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="Approve" asp-route-id="@item.Id"> <i class="fa fa-check"></i></a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"> <i class="fa fa-trash"></i> </a>
+                    </td>
+                </tr>
+            }
+            }
+
+        </tbody>
+    </table>
+</div>
+<hr />
+
+
+<div class="text-center jumbotron bg-success">
+    <h1 style="font-size:2vw;"> Approved Orders </h1><br />
+</div>
+
+
+<div>
+    <br />
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th> Order No </th>
+                <th> Details </th>
+                <th> Name </th>
+                <th> Phone </th>
+                <th> Address </th>
+                <th> Order Date </th>
+                <th> Email </th>
+                <th> Amount </th>
+                <th>
+                    Options
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.IsApproved == true)
+                {
+                    <tr>
+                        <th> @item.OrderNo </th>
+                        <td> @item.Details </td>
+                        <td> @item.FullName </td>
+                        <td> @item.Phone </td>
+                        <td> @item.Address </td>
+                        <td> @item.OrderDate </td>
+                        <td> @item.Email </td>
+                        <td> @item.TotalAmount </td>
+                        <td>
+                            <a class="btn btn-primary" asp-action="Approve" asp-route-id="@item.Id"> <i class="fa fa-check"></i></a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"> <i class="fa fa-trash"></i> </a>
+                        </td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+</div>

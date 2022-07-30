@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_ClientLayout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <div class="jumbotron mt-3" style="background-color:rgb(0, 0, 0, 0.1);">
+        <h1 class="display-3 text-center" style="font-size:3.6vw;"> WOMEN'S CLOTHING </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-5">
+                <h4 style="font-size:2vw;">Formal Collection</h4>
+                <a asp-action="Formal" asp-controller="Client">
+                    <img src="~/Images/Assests/stitched_1_1.webp" style="height:94%;width:100%;" alt="category" />
+                </a>
+            </div>
+            <div class="col-5">
+                <h4 style="font-size:2vw;">Semi-Formal Collection</h4>
+                <a asp-action="sformal" asp-controller="Client">
+                    <img src="~/Images/Assests/kurtii_1_1.webp" style="max-height:50%;max-width:70%;" alt="category" />
+                </a>
+                <br /><br />
+                <h4 style="font-size:2vw;">Bridal Collection</h4>
+                <a asp-action="Bridal" asp-controller="Client">
+                    <img src="~/Images/Assests/uns_1_1.webp" style="max-height:50%;max-width:70%;" alt="category" />
+                </a>
+            </div>
+        </div>    
+    </div>
+    <br />
+    <div>
+        <div class="row" style="margin-left:14%">
+            @foreach (var item in Model)
+            {
+                <div class="col-3 card pt-1 m-1">
+                    <h2 style="font-size:1.9vw;" class="text-center"> @item.Title</h2>
+                    <div>
+                        <img class="card-img-top" src="@item.Image_url_path" alt="Card image" style="width:100%">
+                        <div class="mt-1 mb-1">
+                            <h3 style="font-size:1.6vw;"> Category : @item.Category </h3>
+                            <h3 style="font-size:1.6vw;" class="card-text"> Rs: @item.Price</h3>
+                            <a asp-action="ProductDetails" asp-controller="Client" asp-route-id="@item.Id" style="font-size:1.2vw;" class="col btn btn-sm btn-info">Buy <i class="fa fa-shopping-cart"></i></a>
+                            <a href="~/client/details/@item.Id" style="font-size:1.2vw;" class="col btn btn-sm btn-danger">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

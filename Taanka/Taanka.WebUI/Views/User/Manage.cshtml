@@ -1,0 +1,134 @@
+﻿@model IEnumerable<UserModel>
+@{
+    ViewData["Title"] = "Manage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center jumbotron">
+    <h1 style="font-size:2vw;"> Manage Admin Users </h1>
+</div>
+
+@if (ViewBag.Role == "super admin")
+{
+
+    <div class="">
+        <table class="table table-hover table-responsive-sm">
+            <thead>
+                <tr>
+                    <th>Login Id</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    @if (user.Role.Name != "super admin")
+                    {
+                        <tr>
+                            <th>@user.LoginId</th>
+                            <td>@user.Name</td>
+                            <td>@user.Phone</td>
+                            <td>@user.Email</td>
+                            @if (@user.Role.Name != null)
+                            {
+                                <th> @user.Role.Name </th>
+                            }
+                            else
+                            {
+                                <th> Unassigned </th>
+                            }
+
+                            @if (@user.IsActive != true)
+                            {
+                                <td> Un-Authorized </td>
+                            }
+                            else
+                            {
+                                <td> Authorized </td>
+                            }
+
+
+                            <td>
+                                <a class="btn btn-outline-primary" asp-controller="User" asp-action="Approved" asp-route-id="@user.Id"> <i class="fa fa-check"></i> </a>
+                                @*<a class="btn btn-outline-warning" asp-controller="User" asp-action="Edit" asp-route-id="@user.Id"> <i class="fa fa-edit"></i> </a>*@
+                                <a class="btn btn-outline-danger" asp-controller="User" asp-action="Delete" asp-route-id="@user.Id"> <i class="fa fa-trash"></i> </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center jumbotron">
+        <h1 style="font-size:2vw;"> Manage Super Admin Users </h1>
+    </div>
+
+    <div class="">
+        <table class="table table-hover table-responsive-sm">
+            <thead>
+                <tr>
+                    <th>Login Id</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    @if (user.Role.Name == "super admin")
+                    {
+                        <tr>
+                            <th>@user.LoginId</th>
+                            <td>@user.Name</td>
+                            <td>@user.Phone</td>
+                            <td>@user.Email</td>
+                            @if (@user.Role.Name != null)
+                            {
+                                <th> @user.Role.Name </th>
+                            }
+                            else
+                            {
+                                <th> Unassigned </th>
+                            }
+
+                            @if (@user.IsActive != true)
+                            {
+                                <td> Un-Authorized </td>
+                            }
+                            else
+                            {
+                                <td> Authorized </td>
+                            }
+
+
+                            <td>
+                                <a class="btn btn-outline-primary" asp-controller="User" asp-action="Approved" asp-route-id="@user.Id"> <i class="fa fa-check"></i> </a>
+                                @*<a class="btn btn-outline-warning" asp-controller="User" asp-action="Edit" asp-route-id="@user.Id"> <i class="fa fa-edit"></i> </a>*@
+                                <a class="btn btn-outline-danger" asp-controller="User" asp-action="Delete" asp-route-id="@user.Id"> <i class="fa fa-trash"></i> </a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+}
+else
+{
+    <div class="mt-5 text-center">
+        <h1> @ViewBag.message </h1>
+        <p> Login as <b>"Super Admin"</b> to access this page </p>
+    </div>
+}

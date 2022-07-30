@@ -1,0 +1,81 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Taanka.WebUI.Common
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    int count = 0;
+    List<ProductModel> products = HttpContextAccessor.HttpContext.Session.Get<List<ProductModel>>("products");
+    if (products == null)
+    {
+        products = new List<ProductModel>();
+    }
+    count = products.Count();
+}
+@model OrderModel
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_ClientLayout.cshtml";
+}
+
+
+<div class="text-center jumbotron">
+    <h1 style="font-size:2vw;"> YOUR ORDER DETAILS </h1><br />
+    <a asp-controller="Client" asp-action="Index" class="btn btn-outline-success">Go back <i class="fa fa-arrow-left"></i></a>
+</div>
+
+<br />
+
+<div class="container">
+
+    @if (count == 0)
+    {
+        <div class="text-center">
+            <h3 class="display-5 text-center"> CART IS EMPTY!</h3>
+            <a class="btn btn-primary" asp-action="Women"> Buy Products </a>
+        </div>
+    }
+    else
+    {
+
+        <div class="container">
+            <form asp-action="CheckOut" asp-controller="Order" method="post">
+                <div class="mt-1">
+                    <label> Full Name </label>
+                    <input type="text" class="form-control" placeholder="Enter Your Name" asp-for="FullName" required="required" />
+                </div>
+
+                <div class="mt-1">
+                    <label> Email </label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email" asp-for="Email" required="required" />
+                </div>
+
+                <div class="mt-1">
+                    <label> Phone </label>
+                    <input class="form-control" placeholder="Enter Your Name" asp-for="Phone" required="required" />
+                </div>
+                
+                <div class="mt-1">
+                    <label> Address </label>
+                    <input class="form-control" placeholder="Enter Your Address" asp-for="Address" required="required" />
+                    <small> Please make sure it is your complete and accurate address </small>
+                </div>
+
+                <div class="mt-1">
+                    <label> Details </label>
+                    <input class="form-control" asp-for="Details" disabled placeholder="Enter Your Name" value="@string.Join(", ", products.Select(x=>x.Title))" />
+                </div>
+
+                <div class="mt-1">
+                    <label> Amount </label>
+                    <div class="mt-1 mb-1" >
+                        <p>@products.Sum(x=>x.Price)</p>
+                    </div>
+                </div>
+                <br>
+                
+                <div class="row container text-center">
+                    <button type="submit" class="btn col btn-success"> Complete Order </button>
+                </div>
+            </form>
+        </div>
+    }
+</div>

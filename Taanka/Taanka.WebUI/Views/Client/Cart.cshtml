@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_ClientLayout.cshtml";
+}
+
+<div class="text-center jumbotron">
+    <h1 style="font-size:2vw;"> YOUR CART </h1><br />
+    <a asp-controller="Client" asp-action="Index" class="btn btn-outline-success">Go back <i class="fa fa-arrow-left"></i></a>
+</div>
+<br />
+<div class="container">
+
+    @if (Model.Count() == 0)
+    {
+        <div class="text-center">
+            <h3 class="display-5 text-center"> CART IS EMPTY!</h3>
+            <a class="btn btn-primary" asp-action="Women"> Buy Products </a>
+        </div>
+    }
+    else
+    {
+        <table class="table  table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Color</th>
+                    <th>Sizes</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@item.Image_url_path" width="70px" height="100px" />
+                        </td>
+                        <td>@item.Title</td>
+                        <td>@item.Price</td>
+                        <td>@item.Colors</td>
+                        <td>@item.Sizes</td>
+                        <td>
+                            <a class="btn btn-danger" asp-action="Remove" asp-controller="Client" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>
+
+                }
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Total: @Model.Sum(x=>x.Price) </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row">
+            <div class="col-6">
+
+            </div>
+            <div class="text-center col-6">
+                <p> Click the below button to proceed your order and billing details </p>
+                <a class="col btn btn-danger" asp-action="CheckOut" asp-controller="Order" > Proceed To Checkout </a>
+            </div>
+        </div>
+
+    }
+</div>
