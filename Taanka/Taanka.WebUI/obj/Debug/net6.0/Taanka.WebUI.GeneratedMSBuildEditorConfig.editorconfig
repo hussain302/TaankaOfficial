@@ -8,113 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Taanka.WebUI
 build_property.RootNamespace = Taanka.WebUI
-build_property.ProjectDir = D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.WebUI\
+build_property.ProjectDir = D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.WebUI
+build_property.MSBuildProjectDirectory = D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Bridal.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Bridal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEJyaWRhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Cart.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Details.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Formal.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Formal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEZvcm1hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Index.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/sformal.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/sformal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XHNmb3JtYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Women.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Client/Women.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XFdvbWVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Home/Index.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Home/Privacy.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Order/CheckOut.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Order/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Order/Manage.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Order/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTWFuYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Create.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Delete.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Details.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Edit.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Manage.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Product/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxNYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/Error.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/User/Login.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/User/Manage.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/User/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/User/Register.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/_ViewImports.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/_ViewStart.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_ClientLayout.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_ClientLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DbGllbnRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7ywvpk3hgh
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_Layout.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zq8j8uu3lh
 
-[D:/Work/Freelancing Projects/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_MinimalLayout.cshtml]
+[D:/My Projects & Practices/Personal Projects/Taanka official/TaankaOfficial/Taanka/Taanka.WebUI/Views/Shared/_MinimalLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NaW5pbWFsTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-yfljb7qxfq

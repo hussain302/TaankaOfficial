@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj": {}
+    "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj": {
+    "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj",
+        "projectUniqueName": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj",
         "projectName": "Taanka.DataAccess",
-        "projectPath": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\RBTG V2\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\obj\\",
+        "projectPath": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\Taanka.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\muhammad.hussain\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\RBTG V2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\muhammad.hussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj": {
-                "projectPath": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj"
+              "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj": {
+                "projectPath": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj"
               }
             }
           }
@@ -78,7 +79,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -87,24 +89,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj": {
+    "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj",
+        "projectUniqueName": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj",
         "projectName": "Taanka.Models",
-        "projectPath": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj",
-        "packagesPath": "C:\\Users\\RBTG V2\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\obj\\",
+        "projectPath": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj",
+        "packagesPath": "C:\\Users\\muhammad.hussain\\.nuget\\packages\\",
+        "outputPath": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\RBTG V2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\muhammad.hussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,7 +144,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -150,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

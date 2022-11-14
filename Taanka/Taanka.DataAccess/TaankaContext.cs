@@ -13,9 +13,8 @@ namespace Taanka.DataAccess
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=HUSSAIN\\HACK3R;Initial Catalog=FashionProjectDB;Trusted_Connection=True;");
+            optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Data Source=MUHAMMADHUSSAIN\\SQLEXPRESS;Initial Catalog=FashionProjectDB;Trusted_Connection=True;");
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

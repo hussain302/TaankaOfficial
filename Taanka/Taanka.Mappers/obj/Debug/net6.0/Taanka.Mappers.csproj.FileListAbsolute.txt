@@ -13,3 +13,18 @@ D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\refint\Taanka.Mappers.dll
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.pdb
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\ref\Taanka.Mappers.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\bin\Debug\net6.0\Taanka.Mappers.deps.json
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\bin\Debug\net6.0\Taanka.Mappers.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\bin\Debug\net6.0\Taanka.Mappers.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\bin\Debug\net6.0\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\bin\Debug\net6.0\Taanka.Models.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.csproj.AssemblyReference.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.AssemblyInfoInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.AssemblyInfo.cs
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.csproj.CoreCompileInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.csproj.CopyComplete
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\refint\Taanka.Mappers.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\Taanka.Mappers.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Mappers\obj\Debug\net6.0\ref\Taanka.Mappers.dll

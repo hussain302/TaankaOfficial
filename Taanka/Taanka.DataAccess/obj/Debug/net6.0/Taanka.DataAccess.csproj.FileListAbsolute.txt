@@ -15,3 +15,20 @@ D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\n
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.pdb
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.genruntimeconfig.cache
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\ref\Taanka.DataAccess.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.deps.json
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.runtimeconfig.json
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.DataAccess.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\bin\Debug\net6.0\Taanka.Models.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.csproj.AssemblyReference.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.AssemblyInfoInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.AssemblyInfo.cs
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.csproj.CoreCompileInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.csproj.CopyComplete
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\refint\Taanka.DataAccess.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\Taanka.DataAccess.genruntimeconfig.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.DataAccess\obj\Debug\net6.0\ref\Taanka.DataAccess.dll

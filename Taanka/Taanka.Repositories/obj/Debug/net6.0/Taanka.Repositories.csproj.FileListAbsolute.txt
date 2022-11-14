@@ -17,3 +17,22 @@ D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\refint\Taanka.Repositories.dll
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.pdb
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\ref\Taanka.Repositories.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Repositories.deps.json
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Repositories.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Repositories.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.DataAccess.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Interfaces.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.DataAccess.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Interfaces.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\bin\Debug\net6.0\Taanka.Models.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.csproj.AssemblyReference.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.AssemblyInfoInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.AssemblyInfo.cs
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.csproj.CoreCompileInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.csproj.CopyComplete
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\refint\Taanka.Repositories.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\Taanka.Repositories.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Repositories\obj\Debug\net6.0\ref\Taanka.Repositories.dll

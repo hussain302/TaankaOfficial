@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mOCheDHte3LBJ/9YmzO+E8Z83R1OmZmP0j8X/MLzG0VCglw+ELcOro/FMbzvXcc8Mjza02JExu6RyRfBZJ5oCA==",
+  "dgSpecHash": "jCF3LhKmnKEORS6PXfmKWVMcxnR84OkunbPpnH00bK2v8md0cqfVfX3f0FN9niUYkk5kLYQAAPiPYk+8J+XxuA==",
   "success": true,
-  "projectFilePath": "D:\\Work\\Freelancing Projects\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj",
+  "projectFilePath": "D:\\My Projects & Practices\\Personal Projects\\Taanka official\\TaankaOfficial\\Taanka\\Taanka.Models\\Taanka.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
-    "C:\\Users\\RBTG V2\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\RBTG V2\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+    "C:\\Users\\muhammad.hussain\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\muhammad.hussain\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\muhammad.hussain\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

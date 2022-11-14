@@ -154,8 +154,6 @@ namespace Taanka.WebUI.Controllers
                 return View();
             }
         }
-
         #endregion
-
     }
 }

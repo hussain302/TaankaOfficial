@@ -18,34 +18,36 @@
         </div>
     }
     <form asp-action="Register" asp-controller="User" method="post">
-
-        <div class="form-outline mb-4">
-            <label class="form-label" for="form2Example18">Full Name</label>
-            <input type="text" asp-for="Name" id="form2Example18" placeholder="Full Name" class="form-control form-control-lg" />
-        </div>
-
-        <div class="form-outline mb-4">
+        <div class="form-outline mb-3">
             <label class="form-label" for="form2Example18">Email address</label>
             <input type="email" asp-for="Email" id="form2Example18" placeholder="Example@Id.com" class="form-control form-control-lg" />
         </div>
+        <div class="row">
+            <div class="form-outline mb-3 col-6">
+                <label class="form-label" for="form2Example18">Full Name</label>
+                <input type="text" asp-for="Name" id="form2Example18" placeholder="Full Name" class="form-control form-control-lg" />
+            </div>
+            <div class="form-outline mb-3 col-6">
+                <label class="form-label" for="form2Example18">Login Id</label>
+                <input type="text" asp-for="LoginId" id="form2Example18" placeholder="Example123" class="form-control form-control-lg" />
 
-        <div class="form-outline mb-4">
-            <label class="form-label" for="form2Example18">Login Id</label>
-            <input type="text" asp-for="LoginId" id="form2Example18" placeholder="Example123" class="form-control form-control-lg" />
-
-        </div>
-        <div class="form-outline mb-4">
-            <label class="form-label" for="form2Example28">Password</label>
-            <input type="password" asp-for="Password" placeholder="xxxxxxx" id="form2Example28" class="form-control form-control-lg" />
-        </div>
-
-
-        <div class="form-outline mb-4">
-            <label class="form-label" for="form2Example28">Phone</label>
-            <input type="text" asp-for="Phone" placeholder="+92-3XXXXXXXXX" id="form2Example28" class="form-control form-control-lg" />
+            </div>
         </div>
 
-        <div class="pt-1 mb-4">
+        <div class="row">
+            <div class="form-outline mb-3 col-6">
+                <label class="form-label" for="form2Example28">Password</label>
+                <input type="password" asp-for="Password" placeholder="xxxxxxx" id="form2Example28" class="form-control form-control-lg" />
+            </div>
+
+            <div class="form-outline mb-3 col-6">
+                <label class="form-label" for="form2Example28">Phone</label>
+                <input type="text" asp-for="Phone" placeholder="+92-3XXXXXXXXX" id="form2Example28" class="form-control form-control-lg" />
+            </div>
+        </div>
+
+
+        <div class="pt-1">
             <button class="btn btn-info btn-lg btn-block" type="submit">Register</button>
             <a asp-action="Login" asp-controller="User" class="btn-lg btn-block btn btn-primary"> Login</a>
         </div>

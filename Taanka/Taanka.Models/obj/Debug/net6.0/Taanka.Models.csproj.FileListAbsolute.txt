@@ -10,3 +10,15 @@ D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\refint\Taanka.Models.dll
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.pdb
 D:\Work\Freelancing Projects\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\ref\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\bin\Debug\net6.0\Taanka.Models.deps.json
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\bin\Debug\net6.0\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\bin\Debug\net6.0\Taanka.Models.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.csproj.AssemblyReference.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.AssemblyInfoInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.AssemblyInfo.cs
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.csproj.CoreCompileInputs.cache
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\refint\Taanka.Models.dll
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\Taanka.Models.pdb
+D:\My Projects & Practices\Personal Projects\Taanka official\TaankaOfficial\Taanka\Taanka.Models\obj\Debug\net6.0\ref\Taanka.Models.dll
